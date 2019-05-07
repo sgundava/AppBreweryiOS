@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zRh-bE-jkf">
+                                <rect key="frame" x="47" y="96" width="281" height="29"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't Ask Me For Money 💰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGC-rk-Exm">
+                                        <rect key="frame" x="0.0" y="0.0" width="281" height="29"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="9Hf-xY-TSz">
+                                <rect key="frame" x="52" y="357" width="271" height="270"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVw-Zx-O0f">
+                                <rect key="frame" x="134" y="166" width="106.5" height="131"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zRh-bE-jkf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2sb-U3-SxV"/>
+                            <constraint firstItem="ZVw-Zx-O0f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F2y-TS-CXS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9Hf-xY-TSz" secondAttribute="bottom" constant="40" id="RUe-OT-McB"/>
+                            <constraint firstItem="zRh-bE-jkf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-223.25" id="cPf-6Z-FjN"/>
+                            <constraint firstItem="9Hf-xY-TSz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dgF-xY-KGG"/>
+                            <constraint firstItem="9Hf-xY-TSz" firstAttribute="top" secondItem="ZVw-Zx-O0f" secondAttribute="bottom" constant="60" id="f48-bA-NVy"/>
+                            <constraint firstItem="zRh-bE-jkf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="laU-5j-yyx"/>
+                            <constraint firstItem="ZVw-Zx-O0f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pkt-lX-NcN"/>
+                            <constraint firstItem="ZVw-Zx-O0f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-102" id="sJm-Ko-k4C"/>
+                            <constraint firstItem="zRh-bE-jkf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uph-M0-m5k"/>
+                            <constraint firstItem="9Hf-xY-TSz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="158.5" id="v8E-iX-K6X"/>
+                            <constraint firstItem="9Hf-xY-TSz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="vC4-tj-h8b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coal" width="151" height="128"/>
+    </resources>
+</document>
