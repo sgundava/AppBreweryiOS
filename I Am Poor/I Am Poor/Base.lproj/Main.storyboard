@@ -36,7 +36,7 @@
                                 <rect key="frame" x="52" y="357" width="271" height="270"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVw-Zx-O0f">
-                                <rect key="frame" x="134" y="166" width="106.5" height="131"/>
+                                <rect key="frame" x="134.5" y="166" width="106.5" height="131"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
