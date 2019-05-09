@@ -61,3 +61,23 @@ func BMICalculator(weight: Double, height: Double) -> String{
 }
 
 print(BMICalculator(weight: 63, height: 1.8))
+
+for number in 1...10 where number % 2 == 0 {
+    print (number)
+}
+for number in 1...10{
+    if number % 2 == 0 {
+    }
+}
+
+func beerSong(numberOfBottlesOfBeer totalNumberOfBottlesOfBeer: Int) -> String {
+    var lyrics = ""
+    for number in (1...totalNumberOfBottlesOfBeer).reversed() {
+        let newLine: String = "\n\(number) bottles of beer on the wall.\n\(number) bottles of beer on the wall.\nTake one and pass it around,\(number) bottles of beer on the wall.\n"
+        lyrics += newLine
+    }
+    lyrics += "\nNo more bottles of beer on the wall, no more bottles of beer. \nGo  to the store and buy more, 99 bottles of beer on the wall\n"
+    return lyrics
+}
+
+print(beerSong(numberOfBottlesOfBeer: 99))
